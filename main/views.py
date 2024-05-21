@@ -42,7 +42,7 @@ class BaseWeatherView(View):
 #
 #         source = urllib.request.urlopen(
 #             'http://api.openweathermap.org/data/2.5/weather?q ='
-#             + city + '&appid = 66d2d2cdbf52a29baf09c18cf2116b3a').read()
+#             + city + '&appid = your_api_key_here').read()
 #
 #         # converting JSON data to a dictionary
 #         list_of_data = json.loads(source)
